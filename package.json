@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon"
+  },
+  "dependencies": {
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0"
+  }
+}
