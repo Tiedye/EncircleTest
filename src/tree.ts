@@ -99,7 +99,7 @@ function depthFirstSearchBinaryTree<T>(node: BinaryNode<T> | null, condition: (i
     if (condition(nodeValue)) {
       return nodeValue;
     }
-    return depthFirstSearchTree(node.right, condition);
+    return depthFirstSearchBinaryTree(node.right, condition);
   }
   return undefined;
 }
